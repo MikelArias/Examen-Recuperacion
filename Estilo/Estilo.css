@@ -1,0 +1,137 @@
+/*Fuentes usadas*/
+
+@font-face {
+    font-family: Rotulador ;
+    src: url("../Fuente/PermanentMarker-Regular.ttf");
+  }
+  @font-face {
+    font-family: grafiti;
+    src: url("../Fuente/SedgwickAveDisplay-Regular.ttf");
+  }
+  
+/*Barra de navegación*/
+
+nav {
+  top:0;
+  z-index:99;
+}
+
+  .topnav {
+  overflow: hidden;
+  background-color: #F2507B;
+  padding: 2%;
+  }
+
+  .topnav a 
+  {
+ float: initial;
+  display: contents;
+  color: white;
+  text-align: center;
+ 
+  font-size: 26px;
+  font-family: grafiti;
+  }
+
+  /*Footer*/
+
+  footer{
+    font-family: rotulador;
+    text-align: center;
+    color: white;
+  }
+
+  footer a:link{
+    color:white;
+  }
+
+  a:visited {
+    color: #f2f2f2;
+  }
+
+  /* Body*/
+
+  body{
+  text-align:center;
+  font-family: grafiti;
+  font-size: 130%;
+  background-image: linear-gradient(white, #F2CB05,rgb(224, 66, 101),#055BA6);
+  }
+
+  /* Titulo de Arte Urbano y la imagen insertada*/
+
+  titulo{
+  font-size: 750%;
+  font-family: grafiti;
+  color: #055BA6;
+  margin-right: 40%;
+  }
+  /* Galería de fotos en columna y su responsividad*/
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  /* Texto de La definición de Arte Urbano*/
+
+  p1 {
+      font-family: rotulador;
+     }
+
+    /* Cards*/
+
+    .card{
+      margin-left: 60%;
+      margin-top: -12%;
+    }
+    @media screen and (max-width: 600px) {
+    .card{
+      margin: 0 auto;
+    }
+    }
+  
